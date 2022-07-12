@@ -1,0 +1,2929 @@
+[
+    {
+        "id": "1a02751d9303b426",
+        "type": "tab",
+        "label": "Flow 3",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "b9304d0997332a83",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "6b6bb836df2d78ac",
+        "type": "tab",
+        "label": "Flow 2",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "0f2ab9e6ea68c6fd",
+        "type": "tab",
+        "label": "Flow 4",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "db966ed7993e24e3",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-custom",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#b2b3b3",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "reset": false
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#4B7930",
+                    "value": "#b2b3b3",
+                    "edited": true
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#b2b3b3",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#d9d9d9",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#b2b3b3",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "UI",
+            "hideToolbar": "true",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "322b432b1e19372f",
+        "type": "ui_tab",
+        "name": "Tab 1",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "e643ab9e7545fb4b",
+        "type": "modbus-client",
+        "name": "local",
+        "clienttype": "tcp",
+        "bufferCommands": true,
+        "stateLogEnabled": false,
+        "queueLogEnabled": false,
+        "tcpHost": "10.128.5.83",
+        "tcpPort": "502",
+        "tcpType": "DEFAULT",
+        "serialPort": "/dev/ttyUSB",
+        "serialType": "RTU-BUFFERD",
+        "serialBaudrate": "9600",
+        "serialDatabits": "8",
+        "serialStopbits": "1",
+        "serialParity": "none",
+        "serialConnectionDelay": "100",
+        "serialAsciiResponseStartDelimiter": "0x3A",
+        "unit_id": "1",
+        "commandDelay": "1",
+        "clientTimeout": "1000",
+        "reconnectOnTimeout": true,
+        "reconnectTimeout": "2000",
+        "parallelUnitIdsAllowed": true
+    },
+    {
+        "id": "f5db1c5b637460ba",
+        "type": "ui_group",
+        "name": "buttons",
+        "tab": "322b432b1e19372f",
+        "order": 2,
+        "disp": false,
+        "width": 13,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "faa48f441697178a",
+        "type": "ui_group",
+        "d": true,
+        "name": "Default",
+        "tab": "322b432b1e19372f",
+        "order": 5,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "0af65d0865496c94",
+        "type": "ui_spacer",
+        "z": "6b6bb836df2d78ac",
+        "name": "spacer",
+        "group": "f5db1c5b637460ba",
+        "order": 4,
+        "width": 13,
+        "height": 1
+    },
+    {
+        "id": "9d0bcdc2a4e17589",
+        "type": "ui_spacer",
+        "z": "6b6bb836df2d78ac",
+        "name": "spacer",
+        "group": "f5db1c5b637460ba",
+        "order": 9,
+        "width": 13,
+        "height": 1
+    },
+    {
+        "id": "0cd6d13a71b1ce5f",
+        "type": "ui_spacer",
+        "z": "6b6bb836df2d78ac",
+        "name": "spacer",
+        "group": "f5db1c5b637460ba",
+        "order": 4,
+        "width": 13,
+        "height": 1
+    },
+    {
+        "id": "a4f5814c0bc5f65e",
+        "type": "ui_spacer",
+        "z": "6b6bb836df2d78ac",
+        "name": "spacer",
+        "group": "f5db1c5b637460ba",
+        "order": 9,
+        "width": 13,
+        "height": 1
+    },
+    {
+        "id": "194b5107467c267b",
+        "type": "ui_text",
+        "z": "6b6bb836df2d78ac",
+        "d": true,
+        "group": "faa48f441697178a",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "text",
+        "format": "{{msg.payload.var}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 910,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "9a1b9ce4545a88bc",
+        "type": "modbus-read",
+        "z": "6b6bb836df2d78ac",
+        "name": "",
+        "topic": "",
+        "showStatusActivities": false,
+        "logIOActivities": false,
+        "showErrors": false,
+        "unitid": "",
+        "dataType": "HoldingRegister",
+        "adr": "4",
+        "quantity": "1",
+        "rate": "200",
+        "rateUnit": "ms",
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "server": "e643ab9e7545fb4b",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "x": 130,
+        "y": 60,
+        "wires": [
+            [],
+            [
+                "96a84821acbdc017"
+            ]
+        ]
+    },
+    {
+        "id": "96a84821acbdc017",
+        "type": "function",
+        "z": "6b6bb836df2d78ac",
+        "name": "",
+        "func": "msg.payload.var=0;\nif (msg.payload.data[0]!=0){\n    msg.payload.var=1;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 280,
+        "y": 60,
+        "wires": [
+            [
+                "1e62c6d315a5f494"
+            ]
+        ]
+    },
+    {
+        "id": "6184f0f9aafa8dec",
+        "type": "change",
+        "z": "6b6bb836df2d78ac",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.var",
+                "pt": "msg",
+                "to": "vykonava sa",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 640,
+        "y": 60,
+        "wires": [
+            [
+                "194b5107467c267b"
+            ]
+        ]
+    },
+    {
+        "id": "1e62c6d315a5f494",
+        "type": "switch",
+        "z": "6b6bb836df2d78ac",
+        "name": "",
+        "property": "payload.var",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 430,
+        "y": 60,
+        "wires": [
+            [
+                "6184f0f9aafa8dec"
+            ],
+            [
+                "c8cd38de5f5ac93b"
+            ]
+        ]
+    },
+    {
+        "id": "c8cd38de5f5ac93b",
+        "type": "change",
+        "z": "6b6bb836df2d78ac",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.var",
+                "pt": "msg",
+                "to": "-",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 640,
+        "y": 100,
+        "wires": [
+            [
+                "194b5107467c267b"
+            ]
+        ]
+    },
+    {
+        "id": "a42f4f99fef264c5",
+        "type": "ui_button",
+        "z": "6b6bb836df2d78ac",
+        "name": "",
+        "group": "f5db1c5b637460ba",
+        "order": 1,
+        "width": 6,
+        "height": 1,
+        "passthru": false,
+        "label": "Horizontal",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "{{msg.payload.clr}}",
+        "className": "",
+        "icon": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 760,
+        "y": 200,
+        "wires": [
+            [
+                "530a8599963d2b56"
+            ]
+        ]
+    },
+    {
+        "id": "adcc2ecf483d5029",
+        "type": "ui_button",
+        "z": "6b6bb836df2d78ac",
+        "name": "",
+        "group": "f5db1c5b637460ba",
+        "order": 2,
+        "width": 6,
+        "height": 1,
+        "passthru": false,
+        "label": "Adjusted",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "{{msg.payload.clr}}",
+        "className": "",
+        "icon": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 760,
+        "y": 320,
+        "wires": [
+            [
+                "361ebff3e19e0474"
+            ]
+        ]
+    },
+    {
+        "id": "80c20ca4bccd2355",
+        "type": "ui_button",
+        "z": "6b6bb836df2d78ac",
+        "name": "",
+        "group": "f5db1c5b637460ba",
+        "order": 5,
+        "width": 4,
+        "height": 1,
+        "passthru": false,
+        "label": "Print",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "{{msg.payload.clr}}",
+        "className": "",
+        "icon": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 750,
+        "y": 440,
+        "wires": [
+            [
+                "21fa3d933999f4b3"
+            ]
+        ]
+    },
+    {
+        "id": "d0bc1cc45538ab2a",
+        "type": "ui_button",
+        "z": "6b6bb836df2d78ac",
+        "name": "",
+        "group": "f5db1c5b637460ba",
+        "order": 6,
+        "width": 4,
+        "height": 1,
+        "passthru": false,
+        "label": "Capping",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "{{msg.payload.clr}}",
+        "className": "",
+        "icon": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 760,
+        "y": 560,
+        "wires": [
+            [
+                "13183f798171c2ea"
+            ]
+        ]
+    },
+    {
+        "id": "404a426f7ff8ce1a",
+        "type": "ui_button",
+        "z": "6b6bb836df2d78ac",
+        "name": "",
+        "group": "f5db1c5b637460ba",
+        "order": 7,
+        "width": 4,
+        "height": 1,
+        "passthru": false,
+        "label": "Transport",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "{{msg.payload.clr}}",
+        "className": "",
+        "icon": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 760,
+        "y": 680,
+        "wires": [
+            [
+                "a49a27e741b9e873"
+            ]
+        ]
+    },
+    {
+        "id": "05915e369589abd1",
+        "type": "ui_button",
+        "z": "6b6bb836df2d78ac",
+        "name": "",
+        "group": "f5db1c5b637460ba",
+        "order": 10,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "Off",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "{{msg.payload.clr}}",
+        "className": "",
+        "icon": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 750,
+        "y": 800,
+        "wires": [
+            [
+                "eedbf2143507020c"
+            ]
+        ]
+    },
+    {
+        "id": "e881341801bce4b4",
+        "type": "ui_button",
+        "z": "6b6bb836df2d78ac",
+        "name": "",
+        "group": "f5db1c5b637460ba",
+        "order": 11,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "Stand-by",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "{{msg.payload.clr}}",
+        "className": "",
+        "icon": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 760,
+        "y": 920,
+        "wires": [
+            [
+                "2945724673cef89b"
+            ]
+        ]
+    },
+    {
+        "id": "715113c229ba8353",
+        "type": "ui_button",
+        "z": "6b6bb836df2d78ac",
+        "name": "",
+        "group": "f5db1c5b637460ba",
+        "order": 12,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "Low",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "{{msg.payload.clr}}",
+        "className": "",
+        "icon": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 750,
+        "y": 1040,
+        "wires": [
+            [
+                "f308ce7ce9bed40e"
+            ]
+        ]
+    },
+    {
+        "id": "9b2f673e707d32f1",
+        "type": "ui_button",
+        "z": "6b6bb836df2d78ac",
+        "name": "",
+        "group": "f5db1c5b637460ba",
+        "order": 13,
+        "width": 3,
+        "height": 1,
+        "passthru": false,
+        "label": "Medium",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "{{msg.payload.clr}}",
+        "className": "",
+        "icon": "",
+        "payload": "true",
+        "payloadType": "bool",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 760,
+        "y": 1160,
+        "wires": [
+            [
+                "aa88dfbe2651ce86"
+            ]
+        ]
+    },
+    {
+        "id": "530a8599963d2b56",
+        "type": "modbus-getter",
+        "z": "6b6bb836df2d78ac",
+        "name": "",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "logIOActivities": false,
+        "unitid": "",
+        "dataType": "HoldingRegister",
+        "adr": "0",
+        "quantity": "1",
+        "server": "e643ab9e7545fb4b",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "x": 920,
+        "y": 200,
+        "wires": [
+            [],
+            [
+                "be7b78c9e8842eb7"
+            ]
+        ]
+    },
+    {
+        "id": "be7b78c9e8842eb7",
+        "type": "function",
+        "z": "6b6bb836df2d78ac",
+        "name": "",
+        "func": "switch (msg.payload.data[0]){\n    case 0:\n        msg.payload.data[0]=1;\n        break;\n    case 1:\n        msg.payload.data[0]=0;\n        break;\n    default:\n        break;\n}\nvar fc=6;\nvar sa=0;\nvar addresses=1;\nmsg.payload={value: msg.payload.data[0], 'fc':fc, 'unitid':1, 'address':sa,'quantity':addresses};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1080,
+        "y": 200,
+        "wires": [
+            [
+                "4019faa6f05d2fd2"
+            ]
+        ]
+    },
+    {
+        "id": "4019faa6f05d2fd2",
+        "type": "modbus-write",
+        "z": "6b6bb836df2d78ac",
+        "name": "",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "unitid": "",
+        "dataType": "HoldingRegister",
+        "adr": "0",
+        "quantity": "1",
+        "server": "e643ab9e7545fb4b",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "x": 1240,
+        "y": 200,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "c07af683df10cb82",
+        "type": "modbus-read",
+        "z": "6b6bb836df2d78ac",
+        "name": "",
+        "topic": "",
+        "showStatusActivities": false,
+        "logIOActivities": false,
+        "showErrors": false,
+        "unitid": "",
+        "dataType": "HoldingRegister",
+        "adr": "200",
+        "quantity": "1",
+        "rate": "200",
+        "rateUnit": "ms",
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "server": "e643ab9e7545fb4b",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "x": 130,
+        "y": 200,
+        "wires": [
+            [],
+            [
+                "83e9fd8b7a72c426"
+            ]
+        ]
+    },
+    {
+        "id": "83e9fd8b7a72c426",
+        "type": "function",
+        "z": "6b6bb836df2d78ac",
+        "name": "",
+        "func": "switch (msg.payload.data[0]){\n    case 0:\n        msg.payload.clr=0;\n        break;\n    case 1:\n        msg.payload.clr=1;\n        break;\n    case 2:\n        msg.payload.clr=2;\n        break;\n    \n    default:\n        msg.payload.clr=0;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 280,
+        "y": 200,
+        "wires": [
+            [
+                "907342f8cf8ef1b6"
+            ]
+        ]
+    },
+    {
+        "id": "907342f8cf8ef1b6",
+        "type": "switch",
+        "z": "6b6bb836df2d78ac",
+        "name": "",
+        "property": "payload.clr",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "2",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 3,
+        "x": 410,
+        "y": 200,
+        "wires": [
+            [
+                "cb7dabf344f0c2bf"
+            ],
+            [
+                "9830938815e4ec06"
+            ],
+            [
+                "0f994fb7743c012d"
+            ]
+        ]
+    },
+    {
+        "id": "cb7dabf344f0c2bf",
+        "type": "change",
+        "z": "6b6bb836df2d78ac",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.clr",
+                "pt": "msg",
+                "to": "green",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 570,
+        "y": 160,
+        "wires": [
+            [
+                "a42f4f99fef264c5"
+            ]
+        ]
+    },
+    {
+        "id": "9830938815e4ec06",
+        "type": "change",
+        "z": "6b6bb836df2d78ac",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.clr",
+                "pt": "msg",
+                "to": "orange",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 570,
+        "y": 200,
+        "wires": [
+            [
+                "a42f4f99fef264c5"
+            ]
+        ]
+    },
+    {
+        "id": "0f994fb7743c012d",
+        "type": "change",
+        "z": "6b6bb836df2d78ac",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.clr",
+                "pt": "msg",
+                "to": "grey",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 570,
+        "y": 240,
+        "wires": [
+            [
+                "a42f4f99fef264c5"
+            ]
+        ]
+    },
+    {
+        "id": "4a9bf435b88df573",
+        "type": "modbus-read",
+        "z": "6b6bb836df2d78ac",
+        "name": "",
+        "topic": "",
+        "showStatusActivities": false,
+        "logIOActivities": false,
+        "showErrors": false,
+        "unitid": "",
+        "dataType": "HoldingRegister",
+        "adr": "210",
+        "quantity": "1",
+        "rate": "200",
+        "rateUnit": "ms",
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "server": "e643ab9e7545fb4b",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "x": 130,
+        "y": 320,
+        "wires": [
+            [],
+            [
+                "17a971e3136dbadb"
+            ]
+        ]
+    },
+    {
+        "id": "17a971e3136dbadb",
+        "type": "function",
+        "z": "6b6bb836df2d78ac",
+        "name": "",
+        "func": "switch (msg.payload.data[0]){\n    case 0:\n        msg.payload.clr=0;\n        break;\n    case 1:\n        msg.payload.clr=1;\n        break;\n    case 2:\n        msg.payload.clr=2;\n        break;\n    \n    default:\n        msg.payload.clr=0;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 280,
+        "y": 320,
+        "wires": [
+            [
+                "8267a7fdffa55b40"
+            ]
+        ]
+    },
+    {
+        "id": "8267a7fdffa55b40",
+        "type": "switch",
+        "z": "6b6bb836df2d78ac",
+        "name": "",
+        "property": "payload.clr",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "2",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 3,
+        "x": 410,
+        "y": 320,
+        "wires": [
+            [
+                "0ceb7d71b132ba9f"
+            ],
+            [
+                "bf3d53f83303b35f"
+            ],
+            [
+                "9fbebdc0fd1c1bb1"
+            ]
+        ]
+    },
+    {
+        "id": "0ceb7d71b132ba9f",
+        "type": "change",
+        "z": "6b6bb836df2d78ac",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.clr",
+                "pt": "msg",
+                "to": "green",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 570,
+        "y": 280,
+        "wires": [
+            [
+                "adcc2ecf483d5029"
+            ]
+        ]
+    },
+    {
+        "id": "bf3d53f83303b35f",
+        "type": "change",
+        "z": "6b6bb836df2d78ac",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.clr",
+                "pt": "msg",
+                "to": "orange",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 570,
+        "y": 320,
+        "wires": [
+            [
+                "adcc2ecf483d5029"
+            ]
+        ]
+    },
+    {
+        "id": "9fbebdc0fd1c1bb1",
+        "type": "change",
+        "z": "6b6bb836df2d78ac",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.clr",
+                "pt": "msg",
+                "to": "grey",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 570,
+        "y": 360,
+        "wires": [
+            [
+                "adcc2ecf483d5029"
+            ]
+        ]
+    },
+    {
+        "id": "df58666bcf708d47",
+        "type": "modbus-read",
+        "z": "6b6bb836df2d78ac",
+        "name": "",
+        "topic": "",
+        "showStatusActivities": false,
+        "logIOActivities": false,
+        "showErrors": false,
+        "unitid": "",
+        "dataType": "HoldingRegister",
+        "adr": "220",
+        "quantity": "1",
+        "rate": "200",
+        "rateUnit": "ms",
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "server": "e643ab9e7545fb4b",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "x": 130,
+        "y": 440,
+        "wires": [
+            [],
+            [
+                "40b942b0079f5716"
+            ]
+        ]
+    },
+    {
+        "id": "40b942b0079f5716",
+        "type": "function",
+        "z": "6b6bb836df2d78ac",
+        "name": "",
+        "func": "switch (msg.payload.data[0]){\n    case 0:\n        msg.payload.clr=0;\n        break;\n    case 1:\n        msg.payload.clr=1;\n        break;\n    case 2:\n        msg.payload.clr=2;\n        break;\n    \n    default:\n        msg.payload.clr=0;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 280,
+        "y": 440,
+        "wires": [
+            [
+                "fbde9c7df62b0b56"
+            ]
+        ]
+    },
+    {
+        "id": "fbde9c7df62b0b56",
+        "type": "switch",
+        "z": "6b6bb836df2d78ac",
+        "name": "",
+        "property": "payload.clr",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "2",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 3,
+        "x": 410,
+        "y": 440,
+        "wires": [
+            [
+                "27f79c11d28aa3c6"
+            ],
+            [
+                "e3ba288bdea577d3"
+            ],
+            [
+                "c33b4812f2f2dd37"
+            ]
+        ]
+    },
+    {
+        "id": "27f79c11d28aa3c6",
+        "type": "change",
+        "z": "6b6bb836df2d78ac",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.clr",
+                "pt": "msg",
+                "to": "green",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 570,
+        "y": 400,
+        "wires": [
+            [
+                "80c20ca4bccd2355"
+            ]
+        ]
+    },
+    {
+        "id": "e3ba288bdea577d3",
+        "type": "change",
+        "z": "6b6bb836df2d78ac",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.clr",
+                "pt": "msg",
+                "to": "orange",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 570,
+        "y": 440,
+        "wires": [
+            [
+                "80c20ca4bccd2355"
+            ]
+        ]
+    },
+    {
+        "id": "c33b4812f2f2dd37",
+        "type": "change",
+        "z": "6b6bb836df2d78ac",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.clr",
+                "pt": "msg",
+                "to": "grey",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 570,
+        "y": 480,
+        "wires": [
+            [
+                "80c20ca4bccd2355"
+            ]
+        ]
+    },
+    {
+        "id": "b307b20060219faa",
+        "type": "modbus-read",
+        "z": "6b6bb836df2d78ac",
+        "name": "",
+        "topic": "",
+        "showStatusActivities": false,
+        "logIOActivities": false,
+        "showErrors": false,
+        "unitid": "",
+        "dataType": "HoldingRegister",
+        "adr": "230",
+        "quantity": "1",
+        "rate": "200",
+        "rateUnit": "ms",
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "server": "e643ab9e7545fb4b",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "x": 130,
+        "y": 560,
+        "wires": [
+            [],
+            [
+                "a371aef028ee3c61"
+            ]
+        ]
+    },
+    {
+        "id": "a371aef028ee3c61",
+        "type": "function",
+        "z": "6b6bb836df2d78ac",
+        "name": "",
+        "func": "switch (msg.payload.data[0]){\n    case 0:\n        msg.payload.clr=0;\n        break;\n    case 1:\n        msg.payload.clr=1;\n        break;\n    case 2:\n        msg.payload.clr=2;\n        break;\n    \n    default:\n        msg.payload.clr=0;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 280,
+        "y": 560,
+        "wires": [
+            [
+                "605b67c6c648c129"
+            ]
+        ]
+    },
+    {
+        "id": "605b67c6c648c129",
+        "type": "switch",
+        "z": "6b6bb836df2d78ac",
+        "name": "",
+        "property": "payload.clr",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "2",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 3,
+        "x": 410,
+        "y": 560,
+        "wires": [
+            [
+                "e12f15f368b1072c"
+            ],
+            [
+                "a0700b5444da1cce"
+            ],
+            [
+                "d914646cac597c4c"
+            ]
+        ]
+    },
+    {
+        "id": "e12f15f368b1072c",
+        "type": "change",
+        "z": "6b6bb836df2d78ac",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.clr",
+                "pt": "msg",
+                "to": "green",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 570,
+        "y": 520,
+        "wires": [
+            [
+                "d0bc1cc45538ab2a"
+            ]
+        ]
+    },
+    {
+        "id": "a0700b5444da1cce",
+        "type": "change",
+        "z": "6b6bb836df2d78ac",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.clr",
+                "pt": "msg",
+                "to": "orange",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 570,
+        "y": 560,
+        "wires": [
+            [
+                "d0bc1cc45538ab2a"
+            ]
+        ]
+    },
+    {
+        "id": "d914646cac597c4c",
+        "type": "change",
+        "z": "6b6bb836df2d78ac",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.clr",
+                "pt": "msg",
+                "to": "grey",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 570,
+        "y": 600,
+        "wires": [
+            [
+                "d0bc1cc45538ab2a"
+            ]
+        ]
+    },
+    {
+        "id": "1794a84257b71926",
+        "type": "modbus-read",
+        "z": "6b6bb836df2d78ac",
+        "name": "",
+        "topic": "",
+        "showStatusActivities": false,
+        "logIOActivities": false,
+        "showErrors": false,
+        "unitid": "",
+        "dataType": "HoldingRegister",
+        "adr": "240",
+        "quantity": "1",
+        "rate": "200",
+        "rateUnit": "ms",
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "server": "e643ab9e7545fb4b",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "x": 130,
+        "y": 680,
+        "wires": [
+            [],
+            [
+                "6cb76d9b099f56b3"
+            ]
+        ]
+    },
+    {
+        "id": "6cb76d9b099f56b3",
+        "type": "function",
+        "z": "6b6bb836df2d78ac",
+        "name": "",
+        "func": "switch (msg.payload.data[0]){\n    case 0:\n        msg.payload.clr=0;\n        break;\n    case 1:\n        msg.payload.clr=1;\n        break;\n    case 2:\n        msg.payload.clr=2;\n        break;\n    \n    default:\n        msg.payload.clr=0;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 280,
+        "y": 680,
+        "wires": [
+            [
+                "0ca25f5567f635c7"
+            ]
+        ]
+    },
+    {
+        "id": "0ca25f5567f635c7",
+        "type": "switch",
+        "z": "6b6bb836df2d78ac",
+        "name": "",
+        "property": "payload.clr",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "2",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 3,
+        "x": 410,
+        "y": 680,
+        "wires": [
+            [
+                "f5448805669b4978"
+            ],
+            [
+                "355c0fe18fcba65b"
+            ],
+            [
+                "53f40b30ef7de599"
+            ]
+        ]
+    },
+    {
+        "id": "f5448805669b4978",
+        "type": "change",
+        "z": "6b6bb836df2d78ac",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.clr",
+                "pt": "msg",
+                "to": "green",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 570,
+        "y": 640,
+        "wires": [
+            [
+                "404a426f7ff8ce1a"
+            ]
+        ]
+    },
+    {
+        "id": "355c0fe18fcba65b",
+        "type": "change",
+        "z": "6b6bb836df2d78ac",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.clr",
+                "pt": "msg",
+                "to": "orange",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 570,
+        "y": 680,
+        "wires": [
+            [
+                "404a426f7ff8ce1a"
+            ]
+        ]
+    },
+    {
+        "id": "53f40b30ef7de599",
+        "type": "change",
+        "z": "6b6bb836df2d78ac",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.clr",
+                "pt": "msg",
+                "to": "grey",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 570,
+        "y": 720,
+        "wires": [
+            [
+                "404a426f7ff8ce1a"
+            ]
+        ]
+    },
+    {
+        "id": "131b70d36c21c88e",
+        "type": "modbus-read",
+        "z": "6b6bb836df2d78ac",
+        "name": "",
+        "topic": "",
+        "showStatusActivities": false,
+        "logIOActivities": false,
+        "showErrors": false,
+        "unitid": "",
+        "dataType": "HoldingRegister",
+        "adr": "250",
+        "quantity": "1",
+        "rate": "200",
+        "rateUnit": "ms",
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "server": "e643ab9e7545fb4b",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "x": 130,
+        "y": 800,
+        "wires": [
+            [],
+            [
+                "85b769cb8dc27376"
+            ]
+        ]
+    },
+    {
+        "id": "85b769cb8dc27376",
+        "type": "function",
+        "z": "6b6bb836df2d78ac",
+        "name": "",
+        "func": "switch (msg.payload.data[0]){\n    case 0:\n        msg.payload.clr=0;\n        break;\n    case 1:\n        msg.payload.clr=1;\n        break;\n    case 2:\n        msg.payload.clr=2;\n        break;\n    \n    default:\n        msg.payload.clr=0;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 280,
+        "y": 800,
+        "wires": [
+            [
+                "f5589d14ab3582da"
+            ]
+        ]
+    },
+    {
+        "id": "f5589d14ab3582da",
+        "type": "switch",
+        "z": "6b6bb836df2d78ac",
+        "name": "",
+        "property": "payload.clr",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "2",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 3,
+        "x": 410,
+        "y": 800,
+        "wires": [
+            [
+                "5c7b138a30948e36"
+            ],
+            [
+                "e74b2ae50cf65393"
+            ],
+            [
+                "a0fd348edd9fb374"
+            ]
+        ]
+    },
+    {
+        "id": "5c7b138a30948e36",
+        "type": "change",
+        "z": "6b6bb836df2d78ac",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.clr",
+                "pt": "msg",
+                "to": "green",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 570,
+        "y": 760,
+        "wires": [
+            [
+                "05915e369589abd1"
+            ]
+        ]
+    },
+    {
+        "id": "e74b2ae50cf65393",
+        "type": "change",
+        "z": "6b6bb836df2d78ac",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.clr",
+                "pt": "msg",
+                "to": "orange",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 570,
+        "y": 800,
+        "wires": [
+            [
+                "05915e369589abd1"
+            ]
+        ]
+    },
+    {
+        "id": "a0fd348edd9fb374",
+        "type": "change",
+        "z": "6b6bb836df2d78ac",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.clr",
+                "pt": "msg",
+                "to": "grey",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 570,
+        "y": 840,
+        "wires": [
+            [
+                "05915e369589abd1"
+            ]
+        ]
+    },
+    {
+        "id": "982c67bca46e3bee",
+        "type": "modbus-read",
+        "z": "6b6bb836df2d78ac",
+        "name": "",
+        "topic": "",
+        "showStatusActivities": false,
+        "logIOActivities": false,
+        "showErrors": false,
+        "unitid": "",
+        "dataType": "HoldingRegister",
+        "adr": "260",
+        "quantity": "1",
+        "rate": "200",
+        "rateUnit": "ms",
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "server": "e643ab9e7545fb4b",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "x": 130,
+        "y": 920,
+        "wires": [
+            [],
+            [
+                "4c806aadaa58613a"
+            ]
+        ]
+    },
+    {
+        "id": "4c806aadaa58613a",
+        "type": "function",
+        "z": "6b6bb836df2d78ac",
+        "name": "",
+        "func": "switch (msg.payload.data[0]){\n    case 0:\n        msg.payload.clr=0;\n        break;\n    case 1:\n        msg.payload.clr=1;\n        break;\n    case 2:\n        msg.payload.clr=2;\n        break;\n    \n    default:\n        msg.payload.clr=0;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 280,
+        "y": 920,
+        "wires": [
+            [
+                "168e15a6394a9dc2"
+            ]
+        ]
+    },
+    {
+        "id": "168e15a6394a9dc2",
+        "type": "switch",
+        "z": "6b6bb836df2d78ac",
+        "name": "",
+        "property": "payload.clr",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "2",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 3,
+        "x": 410,
+        "y": 920,
+        "wires": [
+            [
+                "83a7399b64ef541a"
+            ],
+            [
+                "d4fad23489c3b312"
+            ],
+            [
+                "588d66ad6fb1d783"
+            ]
+        ]
+    },
+    {
+        "id": "83a7399b64ef541a",
+        "type": "change",
+        "z": "6b6bb836df2d78ac",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.clr",
+                "pt": "msg",
+                "to": "green",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 570,
+        "y": 880,
+        "wires": [
+            [
+                "e881341801bce4b4"
+            ]
+        ]
+    },
+    {
+        "id": "d4fad23489c3b312",
+        "type": "change",
+        "z": "6b6bb836df2d78ac",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.clr",
+                "pt": "msg",
+                "to": "orange",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 570,
+        "y": 920,
+        "wires": [
+            [
+                "e881341801bce4b4"
+            ]
+        ]
+    },
+    {
+        "id": "588d66ad6fb1d783",
+        "type": "change",
+        "z": "6b6bb836df2d78ac",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.clr",
+                "pt": "msg",
+                "to": "grey",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 570,
+        "y": 960,
+        "wires": [
+            [
+                "e881341801bce4b4"
+            ]
+        ]
+    },
+    {
+        "id": "5ac89666bc18153e",
+        "type": "modbus-read",
+        "z": "6b6bb836df2d78ac",
+        "name": "",
+        "topic": "",
+        "showStatusActivities": false,
+        "logIOActivities": false,
+        "showErrors": false,
+        "unitid": "",
+        "dataType": "HoldingRegister",
+        "adr": "270",
+        "quantity": "1",
+        "rate": "200",
+        "rateUnit": "ms",
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "server": "e643ab9e7545fb4b",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "x": 130,
+        "y": 1040,
+        "wires": [
+            [],
+            [
+                "7286cfb81d2c82c9"
+            ]
+        ]
+    },
+    {
+        "id": "7286cfb81d2c82c9",
+        "type": "function",
+        "z": "6b6bb836df2d78ac",
+        "name": "",
+        "func": "switch (msg.payload.data[0]){\n    case 0:\n        msg.payload.clr=0;\n        break;\n    case 1:\n        msg.payload.clr=1;\n        break;\n    case 2:\n        msg.payload.clr=2;\n        break;\n    \n    default:\n        msg.payload.clr=0;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 280,
+        "y": 1040,
+        "wires": [
+            [
+                "fec6ec984f9e4e86"
+            ]
+        ]
+    },
+    {
+        "id": "fec6ec984f9e4e86",
+        "type": "switch",
+        "z": "6b6bb836df2d78ac",
+        "name": "",
+        "property": "payload.clr",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "2",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 3,
+        "x": 410,
+        "y": 1040,
+        "wires": [
+            [
+                "accd3436b82aee3a"
+            ],
+            [
+                "e438595e31662f34"
+            ],
+            [
+                "2390ad2db3a1c27b"
+            ]
+        ]
+    },
+    {
+        "id": "accd3436b82aee3a",
+        "type": "change",
+        "z": "6b6bb836df2d78ac",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.clr",
+                "pt": "msg",
+                "to": "green",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 570,
+        "y": 1000,
+        "wires": [
+            [
+                "715113c229ba8353"
+            ]
+        ]
+    },
+    {
+        "id": "e438595e31662f34",
+        "type": "change",
+        "z": "6b6bb836df2d78ac",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.clr",
+                "pt": "msg",
+                "to": "orange",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 570,
+        "y": 1040,
+        "wires": [
+            [
+                "715113c229ba8353"
+            ]
+        ]
+    },
+    {
+        "id": "2390ad2db3a1c27b",
+        "type": "change",
+        "z": "6b6bb836df2d78ac",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.clr",
+                "pt": "msg",
+                "to": "grey",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 570,
+        "y": 1080,
+        "wires": [
+            [
+                "715113c229ba8353"
+            ]
+        ]
+    },
+    {
+        "id": "f874c239edd21948",
+        "type": "modbus-read",
+        "z": "6b6bb836df2d78ac",
+        "name": "",
+        "topic": "",
+        "showStatusActivities": false,
+        "logIOActivities": false,
+        "showErrors": false,
+        "unitid": "",
+        "dataType": "HoldingRegister",
+        "adr": "280",
+        "quantity": "1",
+        "rate": "200",
+        "rateUnit": "ms",
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "server": "e643ab9e7545fb4b",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "x": 130,
+        "y": 1160,
+        "wires": [
+            [],
+            [
+                "ad2a3e8f0bd1a5c1"
+            ]
+        ]
+    },
+    {
+        "id": "ad2a3e8f0bd1a5c1",
+        "type": "function",
+        "z": "6b6bb836df2d78ac",
+        "name": "",
+        "func": "switch (msg.payload.data[0]){\n    case 0:\n        msg.payload.clr=0;\n        break;\n    case 1:\n        msg.payload.clr=1;\n        break;\n    case 2:\n        msg.payload.clr=2;\n        break;\n    \n    default:\n        msg.payload.clr=0;\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 280,
+        "y": 1160,
+        "wires": [
+            [
+                "2899054b20fe2667"
+            ]
+        ]
+    },
+    {
+        "id": "2899054b20fe2667",
+        "type": "switch",
+        "z": "6b6bb836df2d78ac",
+        "name": "",
+        "property": "payload.clr",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "1",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "2",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "0",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 3,
+        "x": 410,
+        "y": 1160,
+        "wires": [
+            [
+                "5503d977248a988a"
+            ],
+            [
+                "b944ba72879b96e6"
+            ],
+            [
+                "706e0f6fe6d004f0"
+            ]
+        ]
+    },
+    {
+        "id": "5503d977248a988a",
+        "type": "change",
+        "z": "6b6bb836df2d78ac",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.clr",
+                "pt": "msg",
+                "to": "green",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 570,
+        "y": 1120,
+        "wires": [
+            [
+                "9b2f673e707d32f1"
+            ]
+        ]
+    },
+    {
+        "id": "b944ba72879b96e6",
+        "type": "change",
+        "z": "6b6bb836df2d78ac",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.clr",
+                "pt": "msg",
+                "to": "orange",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 570,
+        "y": 1160,
+        "wires": [
+            [
+                "9b2f673e707d32f1"
+            ]
+        ]
+    },
+    {
+        "id": "706e0f6fe6d004f0",
+        "type": "change",
+        "z": "6b6bb836df2d78ac",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.clr",
+                "pt": "msg",
+                "to": "grey",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 570,
+        "y": 1200,
+        "wires": [
+            [
+                "9b2f673e707d32f1"
+            ]
+        ]
+    },
+    {
+        "id": "361ebff3e19e0474",
+        "type": "modbus-getter",
+        "z": "6b6bb836df2d78ac",
+        "name": "",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "logIOActivities": false,
+        "unitid": "",
+        "dataType": "HoldingRegister",
+        "adr": "10",
+        "quantity": "1",
+        "server": "e643ab9e7545fb4b",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "x": 920,
+        "y": 320,
+        "wires": [
+            [],
+            [
+                "aa0c27b5bf6830ea"
+            ]
+        ]
+    },
+    {
+        "id": "aa0c27b5bf6830ea",
+        "type": "function",
+        "z": "6b6bb836df2d78ac",
+        "name": "",
+        "func": "switch (msg.payload.data[0]){\n    case 0:\n        msg.payload.data[0]=1;\n        break;\n    case 1:\n        msg.payload.data[0]=0;\n        break;\n    default:\n        break;\n}\nvar fc=6;\nvar sa=10;\nvar addresses=1;\nmsg.payload={value: msg.payload.data[0], 'fc':fc, 'unitid':1, 'address':sa,'quantity':addresses};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1080,
+        "y": 320,
+        "wires": [
+            [
+                "e2adabd3df4ce4c8"
+            ]
+        ]
+    },
+    {
+        "id": "e2adabd3df4ce4c8",
+        "type": "modbus-write",
+        "z": "6b6bb836df2d78ac",
+        "name": "",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "unitid": "",
+        "dataType": "HoldingRegister",
+        "adr": "10",
+        "quantity": "1",
+        "server": "e643ab9e7545fb4b",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "x": 1240,
+        "y": 320,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "21fa3d933999f4b3",
+        "type": "modbus-getter",
+        "z": "6b6bb836df2d78ac",
+        "name": "",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "logIOActivities": false,
+        "unitid": "",
+        "dataType": "HoldingRegister",
+        "adr": "20",
+        "quantity": "1",
+        "server": "e643ab9e7545fb4b",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "x": 920,
+        "y": 440,
+        "wires": [
+            [],
+            [
+                "e08ed21038d6710e"
+            ]
+        ]
+    },
+    {
+        "id": "e08ed21038d6710e",
+        "type": "function",
+        "z": "6b6bb836df2d78ac",
+        "name": "",
+        "func": "switch (msg.payload.data[0]){\n    case 0:\n        msg.payload.data[0]=1;\n        break;\n    case 1:\n        msg.payload.data[0]=0;\n        break;\n    default:\n        break;\n}\nvar fc=6;\nvar sa=20;\nvar addresses=1;\nmsg.payload={value: msg.payload.data[0], 'fc':fc, 'unitid':1, 'address':sa,'quantity':addresses};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1080,
+        "y": 440,
+        "wires": [
+            [
+                "4cdad99fc703e13a"
+            ]
+        ]
+    },
+    {
+        "id": "4cdad99fc703e13a",
+        "type": "modbus-write",
+        "z": "6b6bb836df2d78ac",
+        "name": "",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "unitid": "",
+        "dataType": "HoldingRegister",
+        "adr": "20",
+        "quantity": "1",
+        "server": "e643ab9e7545fb4b",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "x": 1240,
+        "y": 440,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "13183f798171c2ea",
+        "type": "modbus-getter",
+        "z": "6b6bb836df2d78ac",
+        "name": "",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "logIOActivities": false,
+        "unitid": "",
+        "dataType": "HoldingRegister",
+        "adr": "30",
+        "quantity": "1",
+        "server": "e643ab9e7545fb4b",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "x": 920,
+        "y": 560,
+        "wires": [
+            [],
+            [
+                "5b92020cca4cd7b3"
+            ]
+        ]
+    },
+    {
+        "id": "5b92020cca4cd7b3",
+        "type": "function",
+        "z": "6b6bb836df2d78ac",
+        "name": "",
+        "func": "switch (msg.payload.data[0]){\n    case 0:\n        msg.payload.data[0]=1;\n        break;\n    case 1:\n        msg.payload.data[0]=0;\n        break;\n    default:\n        break;\n}\nvar fc=6;\nvar sa=30;\nvar addresses=1;\nmsg.payload={value: msg.payload.data[0], 'fc':fc, 'unitid':1, 'address':sa,'quantity':addresses};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1080,
+        "y": 560,
+        "wires": [
+            [
+                "6d3dc9681f6f5cbe"
+            ]
+        ]
+    },
+    {
+        "id": "6d3dc9681f6f5cbe",
+        "type": "modbus-write",
+        "z": "6b6bb836df2d78ac",
+        "name": "",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "unitid": "",
+        "dataType": "HoldingRegister",
+        "adr": "30",
+        "quantity": "1",
+        "server": "e643ab9e7545fb4b",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "x": 1240,
+        "y": 560,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "a49a27e741b9e873",
+        "type": "modbus-getter",
+        "z": "6b6bb836df2d78ac",
+        "name": "",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "logIOActivities": false,
+        "unitid": "",
+        "dataType": "HoldingRegister",
+        "adr": "40",
+        "quantity": "1",
+        "server": "e643ab9e7545fb4b",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "x": 920,
+        "y": 680,
+        "wires": [
+            [],
+            [
+                "e8040f63cc7c12a3"
+            ]
+        ]
+    },
+    {
+        "id": "e8040f63cc7c12a3",
+        "type": "function",
+        "z": "6b6bb836df2d78ac",
+        "name": "",
+        "func": "switch (msg.payload.data[0]){\n    case 0:\n        msg.payload.data[0]=1;\n        break;\n    case 1:\n        msg.payload.data[0]=0;\n        break;\n    default:\n        break;\n}\nvar fc=6;\nvar sa=40;\nvar addresses=1;\nmsg.payload={value: msg.payload.data[0], 'fc':fc, 'unitid':1, 'address':sa,'quantity':addresses};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1080,
+        "y": 680,
+        "wires": [
+            [
+                "3ff1ae06145c3bf3"
+            ]
+        ]
+    },
+    {
+        "id": "3ff1ae06145c3bf3",
+        "type": "modbus-write",
+        "z": "6b6bb836df2d78ac",
+        "name": "",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "unitid": "",
+        "dataType": "HoldingRegister",
+        "adr": "40",
+        "quantity": "1",
+        "server": "e643ab9e7545fb4b",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "x": 1240,
+        "y": 680,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "eedbf2143507020c",
+        "type": "modbus-getter",
+        "z": "6b6bb836df2d78ac",
+        "name": "",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "logIOActivities": false,
+        "unitid": "",
+        "dataType": "HoldingRegister",
+        "adr": "50",
+        "quantity": "1",
+        "server": "e643ab9e7545fb4b",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "x": 920,
+        "y": 800,
+        "wires": [
+            [],
+            [
+                "788b89d3663a15e2"
+            ]
+        ]
+    },
+    {
+        "id": "788b89d3663a15e2",
+        "type": "function",
+        "z": "6b6bb836df2d78ac",
+        "name": "",
+        "func": "switch (msg.payload.data[0]){\n    case 0:\n        msg.payload.data[0]=1;\n        break;\n    case 1:\n        msg.payload.data[0]=0;\n        break;\n    default:\n        break;\n}\nvar fc=6;\nvar sa=50;\nvar addresses=1;\nmsg.payload={value: msg.payload.data[0], 'fc':fc, 'unitid':1, 'address':sa,'quantity':addresses};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1080,
+        "y": 800,
+        "wires": [
+            [
+                "6925b7c02242030d"
+            ]
+        ]
+    },
+    {
+        "id": "6925b7c02242030d",
+        "type": "modbus-write",
+        "z": "6b6bb836df2d78ac",
+        "name": "",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "unitid": "",
+        "dataType": "HoldingRegister",
+        "adr": "50",
+        "quantity": "1",
+        "server": "e643ab9e7545fb4b",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "x": 1240,
+        "y": 800,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "2945724673cef89b",
+        "type": "modbus-getter",
+        "z": "6b6bb836df2d78ac",
+        "name": "",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "logIOActivities": false,
+        "unitid": "",
+        "dataType": "HoldingRegister",
+        "adr": "60",
+        "quantity": "1",
+        "server": "e643ab9e7545fb4b",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "x": 920,
+        "y": 920,
+        "wires": [
+            [],
+            [
+                "6be532d70d9dfe9c"
+            ]
+        ]
+    },
+    {
+        "id": "6be532d70d9dfe9c",
+        "type": "function",
+        "z": "6b6bb836df2d78ac",
+        "name": "",
+        "func": "switch (msg.payload.data[0]){\n    case 0:\n        msg.payload.data[0]=1;\n        break;\n    case 1:\n        msg.payload.data[0]=0;\n        break;\n    default:\n        break;\n}\nvar fc=6;\nvar sa=60;\nvar addresses=1;\nmsg.payload={value: msg.payload.data[0], 'fc':fc, 'unitid':1, 'address':sa,'quantity':addresses};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1080,
+        "y": 920,
+        "wires": [
+            [
+                "77ed572540bd0c47"
+            ]
+        ]
+    },
+    {
+        "id": "77ed572540bd0c47",
+        "type": "modbus-write",
+        "z": "6b6bb836df2d78ac",
+        "name": "",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "unitid": "",
+        "dataType": "HoldingRegister",
+        "adr": "60",
+        "quantity": "1",
+        "server": "e643ab9e7545fb4b",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "x": 1240,
+        "y": 920,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "f308ce7ce9bed40e",
+        "type": "modbus-getter",
+        "z": "6b6bb836df2d78ac",
+        "name": "",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "logIOActivities": false,
+        "unitid": "",
+        "dataType": "HoldingRegister",
+        "adr": "70",
+        "quantity": "1",
+        "server": "e643ab9e7545fb4b",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "x": 920,
+        "y": 1040,
+        "wires": [
+            [],
+            [
+                "4eb5e8b58a424f23"
+            ]
+        ]
+    },
+    {
+        "id": "4eb5e8b58a424f23",
+        "type": "function",
+        "z": "6b6bb836df2d78ac",
+        "name": "",
+        "func": "switch (msg.payload.data[0]){\n    case 0:\n        msg.payload.data[0]=1;\n        break;\n    case 1:\n        msg.payload.data[0]=0;\n        break;\n    default:\n        break;\n}\nvar fc=6;\nvar sa=70;\nvar addresses=1;\nmsg.payload={value: msg.payload.data[0], 'fc':fc, 'unitid':1, 'address':sa,'quantity':addresses};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1080,
+        "y": 1040,
+        "wires": [
+            [
+                "b7e8e3cf311ef678"
+            ]
+        ]
+    },
+    {
+        "id": "b7e8e3cf311ef678",
+        "type": "modbus-write",
+        "z": "6b6bb836df2d78ac",
+        "name": "",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "unitid": "",
+        "dataType": "HoldingRegister",
+        "adr": "70",
+        "quantity": "1",
+        "server": "e643ab9e7545fb4b",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "x": 1240,
+        "y": 1040,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "aa88dfbe2651ce86",
+        "type": "modbus-getter",
+        "z": "6b6bb836df2d78ac",
+        "name": "",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "logIOActivities": false,
+        "unitid": "",
+        "dataType": "HoldingRegister",
+        "adr": "80",
+        "quantity": "1",
+        "server": "e643ab9e7545fb4b",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "x": 920,
+        "y": 1160,
+        "wires": [
+            [],
+            [
+                "51613fe704ed2676"
+            ]
+        ]
+    },
+    {
+        "id": "51613fe704ed2676",
+        "type": "function",
+        "z": "6b6bb836df2d78ac",
+        "name": "",
+        "func": "switch (msg.payload.data[0]){\n    case 0:\n        msg.payload.data[0]=1;\n        break;\n    case 1:\n        msg.payload.data[0]=0;\n        break;\n    default:\n        break;\n}\nvar fc=6;\nvar sa=80;\nvar addresses=1;\nmsg.payload={value: msg.payload.data[0], 'fc':fc, 'unitid':1, 'address':sa,'quantity':addresses};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1080,
+        "y": 1160,
+        "wires": [
+            [
+                "3ce01442583e5ee1"
+            ]
+        ]
+    },
+    {
+        "id": "3ce01442583e5ee1",
+        "type": "modbus-write",
+        "z": "6b6bb836df2d78ac",
+        "name": "",
+        "showStatusActivities": false,
+        "showErrors": false,
+        "unitid": "",
+        "dataType": "HoldingRegister",
+        "adr": "80",
+        "quantity": "1",
+        "server": "e643ab9e7545fb4b",
+        "emptyMsgOnFail": false,
+        "keepMsgProperties": false,
+        "x": 1240,
+        "y": 1160,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "3b8d9d3ace18114a",
+        "type": "modbus-read",
+        "z": "6b6bb836df2d78ac",
+        "name": "",
+        "topic": "",
+        "showStatusActivities": false,
+        "logIOActivities": false,
+        "showErrors": false,
+        "unitid": "",
+        "dataType": "InputRegister",
+        "adr": "300",
+        "quantity": "1",
+        "rate": "200",
+        "rateUnit": "ms",
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "server": "e643ab9e7545fb4b",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "x": 1470,
+        "y": 260,
+        "wires": [
+            [],
+            [
+                "1ab977be293a9341"
+            ]
+        ]
+    },
+    {
+        "id": "8da17564dfe4ad24",
+        "type": "modbus-read",
+        "z": "6b6bb836df2d78ac",
+        "name": "",
+        "topic": "",
+        "showStatusActivities": false,
+        "logIOActivities": false,
+        "showErrors": false,
+        "unitid": "",
+        "dataType": "InputRegister",
+        "adr": "310",
+        "quantity": "1",
+        "rate": "200",
+        "rateUnit": "ms",
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "server": "e643ab9e7545fb4b",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "x": 1470,
+        "y": 560,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "cd398e7a050293e9",
+        "type": "modbus-read",
+        "z": "6b6bb836df2d78ac",
+        "name": "",
+        "topic": "",
+        "showStatusActivities": false,
+        "logIOActivities": false,
+        "showErrors": false,
+        "unitid": "",
+        "dataType": "InputRegister",
+        "adr": "1",
+        "quantity": "320",
+        "rate": "200",
+        "rateUnit": "ms",
+        "delayOnStart": false,
+        "startDelayTime": "",
+        "server": "e643ab9e7545fb4b",
+        "useIOFile": false,
+        "ioFile": "",
+        "useIOForPayload": false,
+        "emptyMsgOnFail": false,
+        "x": 1470,
+        "y": 980,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "1ab977be293a9341",
+        "type": "ui_text",
+        "z": "6b6bb836df2d78ac",
+        "group": "f5db1c5b637460ba",
+        "order": 3,
+        "width": 1,
+        "height": 1,
+        "name": "",
+        "label": "text",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1750,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "3ea883c3ec0bfdb8",
+        "type": "ui_text",
+        "z": "6b6bb836df2d78ac",
+        "group": "f5db1c5b637460ba",
+        "order": 8,
+        "width": 1,
+        "height": 1,
+        "name": "",
+        "label": "text",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1770,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "f977502269d7dcfd",
+        "type": "ui_text",
+        "z": "6b6bb836df2d78ac",
+        "group": "f5db1c5b637460ba",
+        "order": 14,
+        "width": 1,
+        "height": 1,
+        "name": "",
+        "label": "text",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 1790,
+        "y": 980,
+        "wires": []
+    }
+]
