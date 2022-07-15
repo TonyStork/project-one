@@ -27,15 +27,15 @@ project does, how to use it and anything else they may need to know.
 | Stand-by button - output   | 400061  | holding |
 | Low button - output        | 400071  | holding |
 | Medium button - output     | 400081  | holding |
-| Horizontal button - input  | 400201  | holding |
-| Adjusted button - input    | 400211  | holding |
-| Print button - input       | 400221  | holding |
-| Capping button - input     | 400231  | holding |
-| Transport button - input   | 400241  | holding |
-| Off button - input         | 400251  | holding |
-| Stand-by button - input    | 400261  | holding |
-| Low button - input         | 400271  | holding |
-| Medium button - input      | 400281  | holding |
+| Horizontal button - input  | 400201  | input   |
+| Adjusted button - input    | 400211  | input   |
+| Print button - input       | 400221  | input   |
+| Capping button - input     | 400231  | input   |
+| Transport button - input   | 400241  | input   |
+| Off button - input         | 400251  | input   |
+| Stand-by button - input    | 400261  | input   |
+| Low button - input         | 400271  | input   |
+| Medium button - input      | 400281  | input   |
 | Error Hor/Adj input        | 300301  | input   |
 | Error P/C/T input          | 300311  | input   |
 | Error O/S/L/M input        | 300321  | input   |
