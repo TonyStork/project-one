@@ -10,8 +10,8 @@ project does, how to use it and anything else they may need to know.
 
 <div>
   <img src="https://media.giphy.com/media/5F64Bq8l0nSIVvZlJN/giphy.gif"><p>
-  <img src="https://media.giphy.com/media/AZeYOqvgFMseWdMWf4/giphy.gif">
-  <img src="">
+  <img src="https://media.giphy.com/media/AZeYOqvgFMseWdMWf4/giphy.gif"><p>
+  <img src="https://media.giphy.com/media/FMoC1IUbldQlDxuESl/giphy.gif">
 </div>
 
 
